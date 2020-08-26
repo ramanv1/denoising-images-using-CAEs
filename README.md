@@ -10,4 +10,4 @@
   2. models.py - file containing the function that creates the model using tensorflow/keras functional API
   3. train.py - file containing the function that trains the compiled model using horovod package
   
-  The results of the network have been evalulated using PSNR as the metric. We see an improvement in PSNR for the reconstructed images (over the noisy images).
+  The results of the network have been evalulated using PSNR (peak signal to noise ratio) as the metric. We see an improvement in PSNR for the reconstructed images (over the noisy images).
