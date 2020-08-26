@@ -11,3 +11,14 @@
   3. train.py - file containing the function that trains the compiled model using horovod package
   
   The results of the network have been evalulated using peak signal to noise ratio (PSNR) as the metric. We see an improvement in PSNR for the reconstructed images (over the noisy images).
+
+Dependencies:
+1. tensorflow and keras 
+2. horovod for tensorflow/keras:
+   this can be installed using pip install horovod[tensorflow,keras]
+3. photutils:
+   this is a package used for applying poisson noise to image
+4. glob, zipfile:
+   use for file-handling
+5. numpy, pandas, matplotlib, seaborn:
+   for data-processing, and plotting
