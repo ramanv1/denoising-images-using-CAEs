@@ -1,7 +1,7 @@
 # Denoising images using Convolutional Autoencoders
-  We remove Poisson noise on image data using Convolutional Autoencoders. We use two encoder-decoder networks, that work in tandem.
+  We remove Poisson noise in the image using Convolutional Autoencoders. We use two encoder-decoder networks, that work in tandem.
   The two encoder-decoder networks have different compression ratios. The encode-decoder network having a lower compression ratio preserves
-  the finer details of the image whereas the one with higher compression ratio removes noise in the image. 
+  the finer details of the image whereas the one with higher compression ratio removes the noise in the image. 
   We use horovod for training the DNN on multiple GPUs. We use image data generators working on custom preprocessing functions to create 
   the pipeline for handling large datasets. Currently we have performed simulations using Adam optimizer. The code can be further customized
   to include any other optimzer as well. 
