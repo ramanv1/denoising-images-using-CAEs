@@ -7,8 +7,8 @@
   to include any other optimzer as well. 
   The code is structed as follows:
   1. utils.py - file containing all the utility functions required for creating data pipelines
-  2. models.py - file containing the function that creates the model using tensorflow/keras functional API
-  3. train.py - file containing the function that trains the compiled model using horovod package
+  2. models.py - file containing the function that creates the model using TensorFlow/Keras functional API
+  3. train.py - file containing the function that trains the compiled model using Horovod package
   
   The results of the network have been evalulated using peak signal to noise ratio (PSNR) as the metric. We see an improvement in PSNR for the reconstructed images (over the noisy images).
 
